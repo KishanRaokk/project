@@ -1,0 +1,20 @@
+method of img save in html
+frist your image save in google drive and 
+after go on drive image and right click
+ then go get link  and copy link and past on his other note pade
+ then your image only code copy and past https 
+ code after past now your full https links copy and save youe side.
+ 
+ 
+ 
+ example;.
+frist step
+image links from google drive'
+
+https://drive.google.com/file/d/1PTGO08quhR-giM0ZXLoHlDrWwWRYdZzj/view?usp=sharing
+second step 
+httpslinks'
+https://drive.google.com/thumbnail?id=1PTGO08quhR-giM0ZXLoHlDrWwWRYdZzj
+
+
+

@@ -1,0 +1,688 @@
+<html>
+<title>Shivansh Gyan Center.2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<style>
+* {box-sizing: border-box;}
+body,html {
+background-color:white;
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  }
+  
+  .zoom1 {
+  padding: 50px;
+  background-image: url("gita.jpg");
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom2 {
+  padding: 50px;
+  background-image: url("rama.jpg");
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom3 {
+  padding: 50px;
+  background-image: url('mahabharat.jpg');
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom4 {
+  padding: 50px;
+  background-image: url("kisna.jpg");
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom5 {
+  padding: 50px;
+  background-image: url("shiva-puran.jpg");
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom6{
+  padding: 50px;
+  background-image: url("vishnu.jpg");
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom7 {
+  padding: 50px;
+  background-image: url("purana.jpg");
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom8 {
+  padding: 50px;
+  background-image: url("ved.jpg");
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+
+}
+
+.zoom1:hover,.zoom2:hover,.zoom3:hover,.zoom4:hover,.zoom5:hover,.zoom6:hover,.zoom7:hover,.zoom8:hover { 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+ font-size: 30px;
+ padding: 20px;
+ width: 100px;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-whatsapp {
+ font-size: 30px;
+ padding: 20px;
+ width: 100px;
+  background: #00b489;
+  color: white;
+}
+
+.fa-twitter {
+ font-size: 30px;
+ padding: 20px;
+ width: 100px;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+ font-size: 30px;
+ padding: 20px;
+ width: 100px;
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+ font-size: 30px;
+ padding: 20px;
+ width: 100px;
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+ font-size: 30px;
+ padding: 20px;
+ width: 100px;
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+ font-size: 30px;
+ padding: 20px;
+ width: 100px;
+  background: #125688;
+  color: white;
+
+
+}
+.bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg1 {
+  background-image: url("bgimg1.jpg");
+  min-height: 100%;
+}
+
+.bgimg2 {
+  background-image: url("bgimg2.jpg");
+  min-height:100%;
+}
+
+.bgimg3 {
+  background-image: url("bgimg3.jpg");
+  min-height: 400px;
+}
+
+.bgimg4 {
+  background-image: url("bgimg4.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: black;
+  color: #fff;
+  padding: 25px;
+  font-size: 18px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+
+
+header{
+background-color:white;
+ width: 1360px;
+ height:17%;
+}
+.footer{
+background-color:WHITE;
+background-image:url("header..jpg");
+color:white;
+ width: 1360px;
+ height: 50px;
+ font-size:12px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-image:url("header..jpg"); 
+  background-size:cover;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 17px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: brown;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mySlides {display: none;}
+.mySlides2 {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container2 {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 3000px; /* Should be removed. Only for demonstration */
+    background-image:url("layout.jpg");
+	
+}
+.column2 {
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+.column3 {
+  float: left;
+  width: 10%;
+ /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg1, .bgimg2, .bgimg3, bgimg4 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+
+  <div class="dropdown">
+    <button class="dropbtn">Shree Mad Bhagwat Gita <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="https://www.dwarkadheeshvastu.com/Music-Shrimad-Bhagwat-Geeta-Urdu.aspx">Shree Mad Bhagwat Gita Audio</a>
+      <a href="https://www.pdfdrive.com/bhagavad-gita-hindi-e19452384.html">Shree Mad Bhagwat Gita in Hindi </a>
+      <a href="https://www.youtube.com/watch?v=28sptQICKCk">Best Shree Mad Bhagwat Gita All Chapter You Tube</a>
+<a href="https://audioboom.com/channel/bhagavad-gita-urdu">Yatharth Bhagwat Gita All Chapter Audio</a>
+<a href="https://archive.org/details/YatharthGeetaUrduBook/mode/2up">Yatharth Bhagwat Gita All Chapter Urdu</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">All Religion,s Book,s<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="http://www.islamicnet.com/quran">Islamic Religion Book</a>
+      <a href="https://vedpuran.com/">Hindu Religion Book</a>
+      <a href="http://triggs.djvu.org/djvu-editions.com/BIBLES/DRV/Download.pdf">Christian Religion Book</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Ramayan<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="http://indianmanuscripts.com/valmiki-ramayan-urdu">Ramayan Urdu</a>
+      <a href="https://ia902909.us.archive.org/5/items/HindiBookShrimadValmikiRamayanaallKand/Hindi%20Book-Shrimad%20Valmiki%20Ramayana%28all%20kand%29.pdf">Ramayan Hindi</a>
+      <a href="https://kukufm.com/content-unit/%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%AF%E0%A4%A3-9">Ramayan Best Audio</a>
+      <a href="https://www.youtube.com/watch?v=D4Iy-tA2bdw">Ramayan Best You Tube</a>
+    </div>
+  </div>
+ 
+<div class="dropdown">
+    <button class="dropbtn">Mahabharat Book <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="https://www.rekhta.org/ebooks/mahabharat-volume-001-ebooks">Mahabharat Book Urdu</a>
+      <a href="https://media.vedpuran.com/Mahakavya/Downloads/PDF/Mahabharat_1_Hin.pdf">Mahabharat Book Part.1 Hindi</a>
+<a href="https://media.vedpuran.com/Mahakavya/Downloads/PDF/Mahabharat_2_Hin.pdf">Mahabharat Book Part.2 Hindi</a>
+      <a href="https://vedpuran.com/listenmahakavya_mahabharat1.asp">Mahabharat Book Part.1&2 Audio</a>
+      <a href="https://youtubehindivideos.com/mahabharat-star-plus-all-episodes/">Mahabharat You Tube</a>
+      <a href="https://www.hotstar.com/in/tv/mahabharat/435/list/seasons/t-2_2_28">Mahabharat Darama Hot star</a>
+ 
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">All Puran In Audio<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+     
+      <a href="https://vedpuran.com/listenpuran.asp">All Puran In Audio</a>
+ 
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Class Work<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+     
+      <a href="https://docs.google.com/presentation/d/1010zrEC98HxJG_R9PKPkBtZQ0wYDVm6x/edit#slide=id.p1">All Basic To Full gayan</a>
+ <a href="https://docs.google.com/presentation/d/14_SxlBcsJtoJ3BtqwVPIPZMRG-Rcp0fS/edit#slide=id.p1">Ramayan Information</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Conect us <i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+     
+      <a href="Socail Login.html">Sign In</a>
+  </div>
+  </div>
+  </div>
+  <div class="row">
+  <div class="column" >
+  <div class="slideshow-container2">
+  <div class="mySlides2 fade">
+  <div class="numbertext">1</div>
+     <img src="l.bg.jpg"width="250" >
+	</div>
+	<div class="mySlides2 fade">
+	 <div class="numbertext">2</div>
+     <img src="3.jpg"width="250" >
+	</div>
+	<div class="mySlides2 fade">
+	 <div class="numbertext">3</div>
+     <img src="4.jpg"width="250" >
+	</div>
+	<div class="mySlides2 fade">
+	 <div class="numbertext">4</div>
+     <img src="5.jpg"width="250" >
+	</div>
+	<div class="mySlides2 fade">
+	 <div class="numbertext">5</div>
+     <img src="6.jpg"width="250" >
+	</div>
+	
+	</div>
+</div>
+ <div class="column3">
+<a href="https://archive.org/details/YatharthGeetaUrduBook/mode/2up"><div class="zoom1">
+</div></a>
+</div>
+  <div class="column3">
+<a href="http://indianmanuscripts.com/valmiki-ramayan-urdu"><div class="zoom2">
+</div></a>
+</div>
+<div class="column3">
+<a href="https://www.rekhta.org/ebooks/mahabharat-volume-001-ebooks"><div class="zoom3">
+</div></a>
+</div>
+<div class="column3">
+<a href="https://www.pdfdrive.com/sree-krishna-chaitanyapdf-krishna-path-e10776974.html"><div class="zoom4">
+</div></a>
+</div>
+<div class="column3">
+<a href="https://archive.org/details/ShivaPuranUrdu/mode/2up"><div class="zoom5">
+</div></a>
+</div>
+<div class="column3">
+<a href="https://archive.org/details/KRI325VishnuPuranUrduTranslation2ndChapter1916KarnalPunjabSharadaScribblingsInTheEndPt.AmarNathMadan/page/n1/mode/2up"><div class="zoom6">
+</div></a>
+</div>
+<div class="column3">
+<a href="https://vedpuran.com/listenpuran.asp"><div class="zoom7">
+</div></a>
+</div>
+<div class="column3">
+<a href="https://www.youtube.com/watch?v=sCezfo-cxgk"><div class="zoom8">
+</div></a>
+</div>
+
+
+  <div class="column2">
+  <div style="position:relative;">
+  <div style="color:white;background-color:brown;text-align:center;padding:10px 20px;text-align: justify;">
+  <p align=center><font size=16>Shivansh Gyan Center</font></p>
+  </div>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="bg.jpg"  style="width:100%">
+ 
+  <div class="caption">
+<span class="border" style="background-color:transparent;font-size:26px;color:black;"><u><b>Om Namo Bhaghwate Vasu Devaye Namah</u></b></span>  
+ </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="1.jpg" style="width:100%">
+    <div class="caption"> 
+<span class="border" style="background-color:transparent;font-size:26px;color:black;"><u><b>Guru Hai Barhma
+Guru Hai Vishnu
+Guru Hai Devo Maheshwara
+Guru Hai Shak Shakt Par Barhma
+Tasmai Shree Guru Hai Namo Namah</u></b></span>
+ 
+</div>
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="bgimg1.jpg" style="width:100%">
+ 
+<div class="caption">
+ <span class="border" style="background-color:transparent;font-size:16px;color:black;"><u><b>Q.1DHARAM KE PANCH AADHAR KON SE HE?
+ Ans. Dharam Ko Jane Ke Liya Sab Se Phale Us Ke Aadhar Ko Janna Lazmi Hai Dharam Ke Panch Aadhar Hai 
+Hindi
+1.Gyan..(2).Prem..(3).Nayae..(4).Sumrpan..(5).Diraj
+
+Urdu
+1.Malumat Hasil Karna..(2).Pyar Karna..(3).Sahi Fasla Karna..(4).Apne Aap Ko Bhagwan K Hawale Kar Na..(5).Sabar Karna
+  </u></b></span>
+ </div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="bgimg1.4.jpg" style="width:100%">
+  <div class="caption">
+
+  <span class="border" style="background-color:transparent;font-size:20px;color:black;"><u><b>Q.3.Dharam Kaya He?
+Ans.Dharam,
+        (1).Budhi,(2). Dil,(3). Aatma,(4).Jisam Ki Khowahish,(5).Or Man Ye 5 Pancho Dharam Ke Aadhar Jab Shant
+ Or Isthir Ho Jate He To Manushiye Karona Se Bhar Jata He Ise Dharam Kahte He.
+ </u></b></span>
+</div>
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+</div>
+
+
+<div style="position:relative;">
+  <div style="color:white;background-color:brown;text-align:center;padding:10px 20px;text-align: justify;">
+  <p align=center><font size=16>Ramayan Kaya He</font></p>
+  </div>
+</div>
+<div class="bgimg2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:18px;color:black;"><u>
+Ans. Ramayan Wo Hai  Jis Mai Ram Ki Biwi  Sita Or Ram Ka Bhai Lakshnam Or Ram Khud 
+Ye Teeno Apne Pita Or Maa K Hukum Ko Pura Karne K Liye 14 Sal Banwas Chale Gaye
+Or Waha Sita Ka Haran Huwa Sita Ka Haran Rawan Ne Kiya Tha Isliye Rawan Ko Mara
+Or 14 Sal K Anadar Ram Ne Kayi Lilaye Ki Or Kai Rakhshasho Ko Bhi Mara 
+Or Ram Ke Janam Se Lekar Ram Ka Ravan Ko Mar Kar  Wapas Aoydiya Aane Tak Ki Kahani
+Ye Sab Ramayan Mai Batai Gai Hai Or Ye Hi Ramayan Hai.</u> 
+
+</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:white;background-color:brown;text-align:center;padding:10px 20px;text-align: justify;">
+  <p align=center><font size=16>Mahabharat Kise Kahte He</font></p>
+  </div>
+</div>
+
+<div class="bgimg3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">All Puran</span>
+  </div>
+</div>
+<div style="position:relative;">
+  <div style="color:white;background-color:brown;text-align:center;padding:10px 20px;text-align: justify;">
+  <p align=center><font size=16>Shrimad Bhagwat Geeta Kaya He?</font></p>
+  </div>
+</div>
+
+<div class="bgimg4">
+  <div class="caption">
+ <span class="border">All Religion Knowledge</span>  
+ </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="footer"><h1><center>MADE BY KISHAN RAO THANK YOU USE OVER PAGE  OM NAMAH SHIVAYE</center></h1>
+</div>
+<script>
+var slideIndex = 0;
+var slideIndex2 = 0;
+showSlides();
+showSlides2();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 15000); // Change image every 15 second
+}
+function showSlides2() {
+  var i;
+  var slides2 = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";  
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides2.length) {slideIndex2 = 1}    
+  slides2[slideIndex2-1].style.display = "block";  
+  setTimeout(showSlides2, 5000); // Change image every 5 second
+}
+</script>
+<center><a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-whatsapp"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a></center>
+
+  </body>
+ 
+ </html>
+ 
+ 
